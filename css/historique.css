@@ -1,0 +1,110 @@
+.conteneur{
+    position: relative;
+    background-color: black;
+    margin: 0 auto;
+    width: 480px;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid white;
+}
+.img_droite{
+    width: 7rem;
+   margin-left: 320px;
+}
+.details{
+    position: relative;
+    top: 1em;
+    width: 80%;
+    height: 8em;
+    border: 1px solid red;
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.filtre{
+    width: 3.125em;
+    height: 1.5em;
+    background-color: white;
+    position: absolute;
+    right: 1.2em;
+    top: 15.75em; 
+}
+p{
+    position: absolute;
+    right: 3em;
+    top: 18em;
+    background-color: white;
+    width: 4em;
+    height: 1.5em;
+    text-align: center;
+}
+.historique{
+    position: relative;
+    background-image: url(../img_formulaire/historique.png);
+    width: 80%;
+    height: 17em;
+    top: 7em;
+    border-radius: 15px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 2em;
+}
+.bouton{
+    align-self: center;
+    width: 40%;
+    height: 5em;
+    background-color: white;
+    position: relative;
+    top: 9em;
+    border-radius: 15px;
+}
+.bouton a{
+    display: block;
+    height: 5em;
+    line-height: 5em;
+    text-align: center;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: black;
+}
+
+/*@media query*/
+
+
+@media screen, device(min-width:320px){
+    #conteneur{
+        margin: 0 auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+@media screen, device(min-width:320px){
+    #conteneur{
+        margin: 0 auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+
+
+
+
